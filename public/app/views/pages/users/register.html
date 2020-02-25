@@ -20,6 +20,11 @@
 
 <br>
 
+<div class="jumbotron text-center" ng-show="register.loading">
+    <span class="glyphicon glyphicon-repeat spinner"></span>
+    <p>Loading....</p>
+</div>
+
 <div class="row show-hide-massage" ng-show="register.successMsg">
     <div class="alert alert-success">{{ register.successMsg }}</div>
 </div>
